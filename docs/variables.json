@@ -1,0 +1,53 @@
+{
+  "id": "<campaign_id>",
+  "name": "<campaign_name>",
+  "created_date": "<created_datetime>",
+  "launch_date": "<launch_datetime>",
+  "send_by_date": "<send_by_datetime>",
+  "completed_date": "<completed_datetime>",
+
+  "url": "<campaign_url>",
+  "status": "<campaign_status>",
+
+  "template": {
+    "id": "<template_id>",
+    "name": "<template_name>",
+    "envelope_sender": "<sender_display_name>",
+    "subject": "<email_subject>",
+    "text": "<email_text_body>",
+    "html": "<email_html_body>",
+    "modified_date": "<template_modified_datetime>"
+  },
+
+  "page": {
+    "id": "<page_id>",
+    "name": "<page_name>",
+    "html": "<page_html>",
+    "capture_credentials": "<boolean>",
+    "capture_passwords": "<boolean>",
+    "redirect_url": "<redirect_url>",
+    "modified_date": "<page_modified_datetime>"
+  },
+
+  "smtp": {
+    "id": "<smtp_id>",
+    "interface_type": "<interface_type>",
+    "name": "<smtp_display_name>",
+    "host": "<smtp_host>",
+    "username": "<smtp_username>",
+    "password": "<smtp_password>",
+    "from_address": "<from_email>",
+    "ignore_cert_errors": "<boolean>",
+    "modified_date": "<smtp_modified_datetime>"
+  },
+  
+  "stats": {
+      "total": "<number>",
+      "sent": "<number>",
+      "opened": "<number>",
+      "clicked": "<number>",
+      "submitted_data": "<number>",
+      "email_reported": "<number>",
+      "error": "<number>"
+    }
+}
