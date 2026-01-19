@@ -1,25 +1,25 @@
-# introduction
+# Introduction
 
-this project aims to be a text processor that treats the templates themselves as a working environment. to achieve this, the concepts of `functions` and `variables` have been introduced using an easy-to-follow syntax. the goal here, is to minimize the technical requirements needed for red teams to produce those _satisfying_ single-click reports during their engagements.
+This project aims to be a text processor that treats the templates themselves as a working environment. To achieve this, the concepts of `functions` and `variables` have been introduced using an easy-to-follow syntax. The goal here, is to minimize the technical requirements needed for red teams to produce those _satisfying_ single-click reports during their engagements.
 
-all the structures have been developed with expandability in mind. feel free to add functionality through `modules`, and/or introduce support for common export `formats` such as `docx` or `xlsx`.
+All the structures have been developed with expandability in mind. Feel free to add functionality through `modules`, and/or introduce support for common export `formats` such as `docx` or `xlsx`.
 
-### table of contents
+### Table of contents
 
-- [introduction](#introduction)
-    - [table of contents](#table-of-contents)
-  - [functions](#functions)
+- [Introduction](#introduction)
+    - [Table of contents](#table-of-contents)
+  - [Functions](#functions)
     - [math](#math)
     - [text](#text)
     - [misc](#misc)
-  - [variables](#variables)
+  - [Variables](#variables)
     - [root](#root)
     - [page](#page)
     - [smtp](#smtp)
     - [stats](#stats)
     - [template](#template)
 
-## functions
+## Functions
 
 ### math
 
@@ -46,7 +46,7 @@ all the structures have been developed with expandability in mind. feel free to 
 | `{date.format: date, format}` | date formatting (`strftime`) |
 | `{html.render: html}` | HTML to markdown-safe output |
 
-## variables
+## Variables
 
 > [!NOTE]
 > an immediate representation of the variables can be found in  `docs/variables.json`
