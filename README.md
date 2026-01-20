@@ -4,24 +4,7 @@ This project aims to be a text processor that treats the templates themselves as
 
 All the structures have been developed with expandability in mind. Feel free to add functionality through `modules`, and/or introduce support for common export `formats` such as `docx` or `xlsx`.
 
-### Table of contents
-
-- [Introduction](#introduction)
-    - [Table of contents](#table-of-contents)
-  - [Functions](#functions)
-    - [math](#math)
-    - [text](#text)
-    - [misc](#misc)
-  - [Variables](#variables)
-    - [root](#root)
-    - [page](#page)
-    - [smtp](#smtp)
-    - [stats](#stats)
-    - [template](#template)
-
 ## Functions
-
-### math
 
 | function | description |
 | -- | -- |
@@ -29,20 +12,10 @@ All the structures have been developed with expandability in mind. Feel free to 
 | `{math.sub: a, b}` | subtraction |
 | `{math.pct: a, b}` | percentage |
 | `{math.dif: a, b}` | absolute |
-
-### text
-
-| function | description |
-| -- | -- |
 | `{text.upper: text}` | capitalizes first character only |
 | `{text.lower: text}` | lowercases entire string |
 | `{text.ifnull: value, fallback}` | fallback if value is null/empty |
 | `{text.plural: n, singular, plural}` | singular/plural selection |
-
-### misc
-
-| function | description |
-| -- | -- |
 | `{date.format: date, format}` | date formatting (`strftime`) |
 | `{html.render: html}` | HTML to markdown-safe output |
 
@@ -50,8 +23,6 @@ All the structures have been developed with expandability in mind. Feel free to 
 
 > [!NOTE]
 > an immediate representation of the variables can be found in  `docs/variables.json`
-
-### root
 
 | variable | description |
 | -- | -- |
@@ -63,11 +34,6 @@ All the structures have been developed with expandability in mind. Feel free to 
 | `completed_date` | campaign completion datetime |
 | `url` | campaign url |
 | `status` | campaign status |
-
-### page
-
-| variable | description |
-| -- | -- |
 | `page.id` | landing page id |
 | `page.name` | landing page name |
 | `page.html` | landing page html content |
@@ -75,11 +41,6 @@ All the structures have been developed with expandability in mind. Feel free to 
 | `page.capture_passwords` | whether passwords are captured |
 | `page.redirect_url` | redirect url after submission |
 | `page.modified_date` | landing page last modified datetime |
-
-### smtp
-
-| variable | description |
-| -- | -- |
 | `smtp.id` | smtp configuration id |
 | `smtp.interface_type` | smtp interface type |
 | `smtp.name` | smtp display name |
@@ -89,11 +50,6 @@ All the structures have been developed with expandability in mind. Feel free to 
 | `smtp.from_address` | from email address |
 | `smtp.ignore_cert_errors` | whether to ignore tls certificate errors |
 | `smtp.modified_date` | smtp last modified datetime |
-
-### stats
-
-| variable | description |
-| -- | -- |
 | `stats.total` | total number of targets |
 | `stats.sent` | number of emails sent |
 | `stats.opened` | number of emails opened |
@@ -101,11 +57,6 @@ All the structures have been developed with expandability in mind. Feel free to 
 | `stats.submitted_data` | number of form submissions |
 | `stats.email_reported` | number of reported emails |
 | `stats.error` | number of delivery or processing errors |
-
-### template
-
-| variable | description |
-| -- | -- |
 | `template.id` | template id |
 | `template.name` | template name |
 | `template.envelope_sender` | sender display name |
