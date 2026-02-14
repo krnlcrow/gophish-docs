@@ -6,7 +6,7 @@ env = {
     "api" : {
         "host" : "127.0.0.1",
         "port" : 3333,
-        "auth" : "407b85550c255eda2e283e1889532e3695d75541deb844257e8ac22af92e7d99",
+        "auth" : "dd2a70611fb9ad818d2cbb593486d27229fbfea65f2ae343a23f9e20d6bf80b7",
         "zone" : ZoneInfo("Europe/Amsterdam"),
     },
 
